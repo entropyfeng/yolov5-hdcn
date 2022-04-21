@@ -1,0 +1,8 @@
+path: ./datasets/driver_mask
+train: images/train
+val:  images/val
+
+
+# Classes
+nc: 3  # number of classes
+names: ['no_mask', 'mask', 'mask_incorrect']  # class names
